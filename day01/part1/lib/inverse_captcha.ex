@@ -1,4 +1,7 @@
 defmodule InverseCaptcha do
+  @moduledoc """
+  Solution for part 1 of http://adventofcode.com/2017/day/1
+  """
   def solve(input) do
     input
     |> String.codepoints
