@@ -1,21 +1,10 @@
 # InverseCaptcha
 
-**TODO: Add description**
+Solves Day 1 - Part 2 of 2017's Advent of Code http://adventofcode.com/2017/day/1
 
-## Installation
+## Use
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `inverse_captcha` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:inverse_captcha, "~> 0.1.0"}
-  ]
-end
+```shell
+$ mix deps.get
+$ mix solve_captcha input
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/inverse_captcha](https://hexdocs.pm/inverse_captcha).
-
